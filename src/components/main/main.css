@@ -1,0 +1,252 @@
+/* .main {
+  color: white;
+} */
+
+#eleOne {
+  position: relative;
+  bottom: 5px;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.firstElementInSight {
+  height: 800px;
+  align-content: center;
+  text-align: center;
+  /* border-bottom: solid rgba(255, 187, 0, 0.4) 1px; */
+  width: 110%;
+}
+
+.firstElementInSight > .ArrowDownNavigateSecondElement {
+  position: absolute;
+  bottom: 50px;
+}
+
+.firstElementInSight > .ArrowDownNavigateSecondElement button {
+  background-color: black;
+  border: none;
+  outline: 0;
+  position: relative;
+  right: 70px;
+}
+
+.firstElementInSight > .ArrowDownNavigateSecondElement > button:hover {
+  transform: scale(1.5, 1.5);
+  transition: 1.5s;
+}
+
+.firstElementInSight > .ArrowDownNavigateSecondElement > button:not(:hover) {
+  transition: 2.5s;
+}
+
+/* ==============> */
+.secondElementInSight {
+  position: relative;
+  top: 20px;
+}
+.secondElement {
+  height: 800px;
+  background-color: rgb(255, 255, 255, 0);
+
+  position: relative;
+  left: 50px;
+}
+
+.secondElementInSight > img {
+  left: 190px;
+  background-color: black;
+  top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.secondElementInSight > img:hover {
+  transition: 2.8s;
+}
+
+.secondElement button {
+  min-width: 300px;
+  height: 45px;
+  font-size: 28px;
+  z-index: 200;
+  left: -700px;
+  top: 150px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: bold;
+}
+
+.secondElement a {
+  position: inherit;
+}
+.secondElement a {
+  text-decoration: none;
+}
+
+.secondElement button:hover {
+  background-color: white;
+  color: black;
+}
+
+.myTechnologies > span {
+  display: inline-block;
+  min-height: 100px;
+  margin: 20px;
+  min-width: 270px;
+  min-height: 470px;
+  margin-top: 0px;
+}
+
+.myTechnologies > span:hover {
+  position: relative;
+  transition: 0.5s;
+  box-shadow: 1px 1px 5px 5px;
+}
+
+.myTechnologies h5 {
+  font-size: 22px;
+  /* margin-right: 15px; */
+  display: inline-block;
+}
+
+.myTechnologies ul {
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  margin: 40px;
+  /* margin-top: 0px; */
+}
+
+.backEndH5 {
+  position: relative;
+  bottom: 280px;
+}
+
+.frontEndH5 {
+  position: relative;
+  bottom: 140px;
+}
+
+.backOfiiceH5 {
+  position: relative;
+  bottom: 280px;
+}
+.libraryH5 {
+  position: relative;
+  bottom: 0px;
+  height: 205px;
+}
+
+.libraryH5 > ul {
+  position: relative;
+  bottom: 60px;
+  font-size: 16px;
+}
+
+.Calculator {
+  position: relative;
+  right: 380px;
+  top: 400px;
+}
+
+.Coins-Project {
+  position: relative;
+  right: 65px;
+}
+
+.Notes-Project {
+  position: relative;
+  left: 250px;
+}
+
+.thirdElement {
+  position: relative;
+  top: 800px;
+}
+
+.thirdElement input {
+  height: 40px;
+  width: 50%;
+  margin-bottom: 25px;
+  position: relative;
+  right: 250px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.secondElement .ArrowDownNavigatethirdElement {
+  position: absolute;
+  bottom: -800px;
+  left: -100px;
+  z-index: 10000;
+}
+
+.ArrowDownNavigatethirdElement > a > button {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: 0;
+}
+
+.thirdElement button {
+  width: 30%;
+  height: 50px;
+  position: relative;
+  right: 20px;
+  bottom: 60px;
+  font-size: 25px;
+}
+
+.thirdElement > h2 {
+  position: relative;
+  right: 570px;
+  top: 200px;
+}
+
+.thirdElement > .ArrowDownNavigateForthElement {
+  position: relative;
+  top: 300px;
+  right: 420px;
+  z-index: 1000;
+}
+
+.ArrowDownNavigateForthElement > a > button {
+  outline: 0;
+  color: rgb(255, 255, 255, 0);
+  border: none;
+}
+
+.forthElement {
+  position: relative;
+  top: 1200px;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.forthElement > h1 {
+  position: relative;
+  right: 200px;
+}
+
+.forthElement > h4 {
+  font-size: 18px;
+  padding: 15px;
+  position: relative;
+  left: 250px;
+  width: 75%;
+}
+
+.forthElement > .ArrowDownNavigateFirstElement {
+  position: relative;
+  top: 150px;
+  left: 110px;
+  
+}
+
+.ArrowDownNavigateFirstElement > a > button {
+  border: none;
+  background-color: rgb(255, 255, 255, 0);
+  color: rgb(255, 255, 255, 0);
+  transform: rotate(180deg);
+}

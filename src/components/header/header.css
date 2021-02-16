@@ -1,0 +1,186 @@
+.header {
+  position: fixed;
+  padding: 5px;
+  width: 100%;
+}
+
+.headerNameInfo {
+  float: left;
+  position: relative;
+  left: 65px;
+  top: 15px;
+}
+
+.header .options {
+  position: absolute;
+  left: 1795px;
+  top: 35px;
+  width: 5px;
+  height: 25px;
+  font-size: 25px;
+}
+
+.header .optionsLighted {
+  position: absolute;
+  left: 1795px;
+  top: 35px;
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+}
+.header > .options > button > .fas {
+  color: rgb(255, 255, 255, 0.8);
+  width: 100px;
+}
+
+.header > .optionsLighted > button > .fas {
+  color: rgba(0, 0, 0, 0.8);
+  width: 100px;
+}
+
+.header button {
+  background-color: rgb(0, 0, 0,0.1);
+  border: none;
+  font-size: 30px;
+  outline: 0;
+  transition: 0s;
+  border-bottom: solid white 1px;
+
+}
+
+.optionsLighted button {
+  background-color: rgb(255, 255, 255,0.1);
+  border: none;
+  font-size: 30px;
+  outline: 0;
+  border-bottom: solid black 1px;
+  transition: 0s;
+}
+
+.optionsLighted button:hover,
+.optionsLighted .fas:hover {
+  color: black;
+  transition: 0.8s;
+  border-radius: 200px;
+}
+
+.header button:hover,
+.header button:hover .fas {
+  transform: scale(1.1, 1.1);
+
+  transition: 0.8s;
+}
+
+.header button:not(:hover),
+.header button:not(:hover) .fas {
+  transition: 1.5s;
+}
+
+.header .table-header-shown {
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 109px;
+  text-align: center;
+
+}
+
+.table-header-shown >ul > a  {
+  text-decoration: none;
+}
+
+.table-header-shown > li > ul {
+  z-index: 21212110000;
+}
+
+.header .table-header-hidden {
+  display: none;
+}
+
+.header ul, .header
+li {
+  list-style-type: none;
+  text-align: left;
+  z-index: 500px;
+}
+
+.header ul {
+  font-size: 24px;
+}
+.header li {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  position: relative;
+  top: 0px;
+  color: rgb(255, 255, 255);
+  height: 148px;
+  z-index: 1000;
+  width: 10%;
+  padding: 10px;
+}
+
+.header li > ul {
+  position: relative;
+  bottom: 50px;
+  cursor: default;
+}
+.header li > ul:hover {
+  animation: rotation 0.5s linear;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+@keyframes rotation{
+  50%{
+    transform: rotate(3deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.header li > ul > span {
+  float: right;
+  position: relative;
+  top: 1px;
+  margin-left: 2px;
+}
+
+
+.contactMe{
+  right: 50px;
+  top: 250px;
+  height: 150px;
+  width: 500px;
+  padding: 12px;
+}
+
+.contactMe > i{
+  font-size: 25px;
+  float: right;
+  position: absolute;
+  right: 20px;
+  margin: 2px;
+}
+.contactMe > i:hover , .contactMe > button:hover{
+  transform: scale(1.1,1.1);
+}
+.contactMe > input{
+  width: 75%;
+  margin-bottom: 5px;
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contactMe > button{
+  position: relative;
+  top: 5px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.contactMe > p {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
